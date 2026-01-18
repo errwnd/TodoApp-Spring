@@ -36,7 +36,7 @@
 
 ## create todo:  
 
-    `curl -X POST http://localhost:8080/todos -H "Content-Type: application/json" -d "{""title"":""Learn Spring"",""deadline"":""2026-01-31""}"`
+    curl -X POST http://localhost:8080/todos -H "Content-Type: application/json" -d "{""title"":""Learn Spring"",""deadline"":""2026-01-31""}"
 
   
 ##  Get all todo:  
